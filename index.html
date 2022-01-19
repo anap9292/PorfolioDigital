@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/101570bbbb.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Css/style.css">
+    <title>Porfolio Personal</title>
+    <link rel="icon" href="./imagenes/sentimientos.png">
+
+    
+</head>
+<body>
+    <!----------- Menú ------------>
+<header>
+    <nav class="navBar">
+        <p class="cv"><i class="fas fa-angle-double-right"></i><a href="./download/Anahi.P.Sotelo.CV22.pdf" target="_blank" class="descargarCV">Descargar CV</p>
+            <div class="toggle-btn">
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="container-ul"> 
+                <li class="links-item"> <a href="#" class="link active">Hola!</a></li>
+                <li class="links-item"> <a href="#about-section" class="link">Mis conocimiento</a></li>
+                <li class="links-item"> <a href="#project-section" class="link">Mis proyectos</a></li>
+            </ul>
+    </nav>
+
+<!---------- sección sobre Mi --------->
+<section class="inicio">
+    <div class="hero-content">
+        <div class="typewriter-effect">
+            <div class="text" id="typewriter-text"></div>
+        </div>
+        <hr>
+            <p class="info">“Hola soy Anahí! Una estudiante  de sistemas, fan de los gatos y la tecnología,
+                actualmente estoy cursando un bootcamp de programación Front-end y estudiando la carrera Analista de sistemas. No dudes en contactarme, te dejo mis redes.”
+            </p>
+            <ul class="listacontact">
+                <li> <a href="https://www.linkedin.com/in/anahi-andrea-paniale-sotelo/" target="_blank" class="linkedin"><i class="fab fa-linkedin"></i>  Anahi Andrea Paniale Sotelo </a> </li>
+                <li><a href="https://github.com/anap9292" target="_blank" class="gh"> <i class="fab fa-github"></i>  anap9292 </a> </li>
+                <li> <a href="mailto: anahiandrea.p@gmail.com" class="mail"> <i class="fas fa-envelope-square"></i> anahiandrea.p@gmail.com </a> </li>
+            </ul>
+
+
+
+
+        </div>
+    <img src="./imagenes/paper-gf-m.jpg" class="image" alt="cuaderno y dos lápices" title="Imagen minimalista de cuaderno y lapices color pastel">
+    </section>
+</header>
+
+<!----------- Sección Mis conocimientos ----------->
+<section class="conocimientos" id="about-section">
+
+    <h2 class="heading">Mis Conocimientos</h2>
+    <p class="sub-heading">Estas son las tecnologías que manejo actualmente.</p>
+    <div class="separator"></div>
+    <div class="skills-container">
+        <div class="skills-box" style="--bg: #FB7659">
+            <img src="./imagenes/html5.png" alt="logo naranja html5">
+            <p class="skills">html</p>
+        </div>
+        <div class="skills-box" style="--bg: #2020FA">
+            <img src="./imagenes/css-3.png" alt="logo css3">
+            <p class="skills">css3</p>
+        </div>
+       <div class="skills-box" style="--bg: #cc6699">
+            <img src="./imagenes/sass.png" alt="logo Sass">
+
+            <p class="skills">Sass</p>
+        </div> 
+        <div class="skills-box" style="--bg: #f7df1e">
+            <img src="./imagenes/git-logo.png" alt="logo git">
+
+            <p class="skills">git</p>
+        </div>
+        <div class="skills-box large" style="--bg: #BA9514 ">
+            <img src="./imagenes/javascript.png" alt="logo JavaScript">
+
+            <p class="skills"> javascript </p>
+        </div>
+        
+         <div class="skills-box large" style="--bg: #029DCA">
+            <img src="./imagenes/react.png" alt="logo react">
+
+            <p class="skills"> react </p>
+        </div>
+    </div>
+</section>
+
+<!------------ Mis Proyectos ------------->
+<section class="project"id="project-section" >
+    <h2 class="heading">Mis proyectos</h2>
+    <p class="sub-heading">Esta sección aún esta en construcción</p>
+    
+    <div class="separator"></div>
+
+    <section class="contenproyectos" >
+        <div class="box"> <a href="https://anap9292.github.io/appToDoList/" target="blank">
+            <img src="./imagenes/reloj.pastel.jpg" alt="imagen lista">
+            <p>To do List</p></a>
+
+        </div>
+        <div class="box"> <a href="#">
+            <img src="./imageneS/proyectoPC.jpg" alt="imagen lista">
+            <p>Próximamente Administrador de Ventas</p></a>
+        </div>
+        <div class="box"> <a href="#">
+            <img src="./imagenes/pc-lapiz-cuaderno.jpg" alt="imagen lista">
+            <p>Próximamente Controlador de gastos</p></a>
+        </div>
+        <div class="box"> <a href="#"  >
+            <img src="./imagenes/under-construction-g45aa37b14_1280.jpg" alt="imagen lista">
+            <p>próximamente proyecto 4</p></a>
+        
+        </div>
+        <div class="box"> <a href="#">
+            <img src="./imagenes/under-construction-g45aa37b14_1280.jpg" alt="imagen lista">
+            <p>próximamente proyecto 5</p></a>
+        
+        </div>
+        
+
+    </section>
+
+    
+</section>
+
+
+<!----------- Footer ----------->
+<footer>
+    <p class="footer"> Hecho por Anahí <a href="#"> <i class="far fa-kiss-wink-heart"></i></p>
+</footer>
+
+
+<!----------- JavaScript ----------->
+<script src="./js/archivo.js"></script>
+</body>
+</html>
