@@ -315,14 +315,18 @@ box-shadow: 3px 3px 10px rgba(97, 97, 97, 0.856);
 
 
 /*--------- Footer --------*/
-.footer {
+footer{
+    background-color: #dbc9d9;
     width: 100%;
+
+
+}
+.footer {
     height: 2.5em;
     text-align: center;
     font-size: 12px;
     text-transform: uppercase;
     color: #000000;
-    background-color: #dbc9d9;
 
 }
 
@@ -356,7 +360,11 @@ float: right;
         height: 5em;
         font-size: 1em;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
+    }
+    .container-ul{
+        display: none;
     }
     .typewriter-effect {
         font-size: 20px;
@@ -392,5 +400,11 @@ float: right;
     .box h3 {
         font-size: 14px;
     }
+
+}
+@media (max-width: 440px) {
+    footer{
+background-color: white;
+}
 
 }
