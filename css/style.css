@@ -155,12 +155,13 @@ body {
 
 .hero-content {
     width: 60%;
+    height: 20em;
 }
 
 
 .info {
     line-height: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     color: black;
 }
 
@@ -192,7 +193,7 @@ body {
 .conocimientos {
     width: 100%;
     height: auto;
-    padding: 100px 10vw;
+    padding: 20em 10vw;
 }
 
 .heading {
